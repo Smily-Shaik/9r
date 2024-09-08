@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<div>
+    <img id="1"  src="https://www.cookwithmanali.com/wp-content/uploads/2014/07/Rasmalai-Recipe.jpg" width="100" height="100" style="border: 2px solid red;" alt="">
+</div>
+
+<div>
+<img id="2" src="https://th.bing.com/th/id/R.007aad0ec1ffac47bbf8d65f7f8ef386?rik=WCeVrxGOTDcDZw&riu=http%3a%2f%2f1.bp.blogspot.com%2f-buRHxxSdRns%2fVDeo4XTIy8I%2fAAAAAAAAJtQ%2fV7NssOYxR9o%2fs1600%2fDSC09030.JPG&ehk=%2f%2fjSrDE2OspdiWsywJ3ZiqM4bbcXJAIR%2f%2fWirsyqMWA%3d&risl=&pid=ImgRaw&r=0" width="100" height="100" alt="">
+</div>
+<div>
+<img id="3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPm-vyHQOROoBa1qS1-7hpW2WeaGr8WBtEjQ&s" width="100" height="100" alt="">
+</div>
+<script>
+    
+
+
+    var  id1=document.getElementById("1");
+
+    var id2=document.getElementById("2");
+
+    id2.addEventListener("mouseover",fn1);
+
+    function fn1(){
+
+        id1.setAttribute("src","https://th.bing.com/th/id/R.007aad0ec1ffac47bbf8d65f7f8ef386?rik=WCeVrxGOTDcDZw&riu=http%3a%2f%2f1.bp.blogspot.com%2f-buRHxxSdRns%2fVDeo4XTIy8I%2fAAAAAAAAJtQ%2fV7NssOYxR9o%2fs1600%2fDSC09030.JPG&ehk=%2f%2fjSrDE2OspdiWsywJ3ZiqM4bbcXJAIR%2f%2fWirsyqMWA%3d&risl=&pid=ImgRaw&r=0")
+    }
+
+    var id3=document.getElementById("3");
+
+    id3.addEventListener("mouseover",fn2);
+
+    function fn2(){
+
+        id1.setAttribute("src","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPm-vyHQOROoBa1qS1-7hpW2WeaGr8WBtEjQ&s")
+    }
+
+</script>
+
+
+</body>
+</html>
